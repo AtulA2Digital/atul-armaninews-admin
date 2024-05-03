@@ -1,0 +1,164 @@
+a {
+  color: #000 !important;
+  font-weight: 600;
+  text-decoration: none !important;
+}
+
+.container {
+  max-width: 90% !important;
+}
+
+.font-600 {
+  font-weight: 600 !important;
+}
+
+.font-500 {
+  font-weight: 500 !important;
+}
+
+.font-400 {
+  font-weight: 400 !important;
+}
+
+.text-black {
+  color: #000 !important;
+}
+
+.text-gray {
+  color: #7a7a7a;
+}
+
+.text-yellow {
+  color: #B6FF00;
+}
+
+.bg-gray {
+  background-color: #292929;
+}
+
+.yellow-bottom-border {
+  border-bottom: 2px solid #B6FF00;
+}
+
+h2 {
+  font-size: 30px !important;
+  font-weight: 600 !important;
+  line-height: 1.2em !important;
+}
+
+h3 {
+  font-size: 20px !important;
+  font-weight: 600 !important;
+  line-height: 1.2em !important;
+}
+
+h4 {
+  font-size: 18px !important;
+  line-height: 24px !important;
+  font-weight: 600 !important;
+}
+
+h5 {
+  font-size: 16px !important;
+  line-height: 26px !important;
+  font-weight: 400 !important;
+}
+
+h6 {
+  font-size: 14px !important;
+  line-height: 22px !important;
+  font-weight: 400 !important;
+}
+
+.zIndex-1 {
+  position: relative;
+  z-index: 1;
+}
+
+.logo-img {
+  width: 50%;
+}
+
+.blog-image {
+  width: 90%;
+}
+
+/* Login---------------- */
+
+.login-form-wrapper {
+  max-width: 500px;
+  background: #000000bd;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.login-page-wrapper {
+  background-image: url("./Images/login-banner.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Add New Blog-------------- */
+.bg-boxShadow {
+  background: #b6ff0014;
+  border-radius: 10px;
+  box-shadow: 1px 1px 4px 1px #0000002b;
+}
+
+
+/* Breakpoints---------------------- */
+@media (min-width:900px) {
+  .overflow-lg-hidden {
+    overflow: hidden;
+  }
+}
+
+@media (max-width:900px) {
+  .login-page-wrapper {
+    background-position: center right;
+  }
+
+  .blog-list-wrapper {
+    min-width: 150%;
+  }
+
+
+
+  .overflow-md-scroll {
+    overflow: scroll;
+  }
+}
+
+@media (max-width:600px) {
+  h2 {
+    font-size: 22px !important;
+  }
+
+  h3 {
+    font-size: 18px !important;
+  }
+
+  h5 {
+    font-size: 14px !important;
+  }
+
+  .blog-list-wrapper {
+    min-width: 300%;
+  }
+
+  .login-form-wrapper {
+    max-width: 95%;
+  }
+
+  /* Drwawer-------------------- */
+  .drawer-wrapper>div {
+    width: 70px !important;
+  }
+
+  .header-wrapper.css-1xmp39q-MuiPaper-root-MuiAppBar-root {
+    width: calc(100% - 70px);
+  }
+
+
+}
